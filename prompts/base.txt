@@ -1,0 +1,30 @@
+Este projeto utiliza:
+
+- Google Trends RSS para captura de tendências públicas no Brasil
+- IA para análise, classificação e geração de conteúdo
+- Supabase para persistência futura
+- Estrutura inicial de páginas estáticas em /public
+- Frontend publicado na Vercel
+- Backend futuro previsto para Render
+
+Objetivo do projeto:
+
+Top Escolhas é um site de curadoria e recomendação de produtos baseado em tendências, intenção de busca e oportunidades de monetização por afiliados.
+
+Arquitetura prevista:
+
+1. Capturar tendência
+2. Classificar se vale monetizar ou ignorar
+3. Identificar intenção de busca
+4. Gerar conteúdo útil
+5. Criar página indexável
+6. Inserir links de afiliado quando aplicável
+7. Registrar dados no banco futuramente
+
+Regras:
+
+- Não expor chaves reais no Git
+- Usar .env.example apenas como contrato
+- Usar .env real apenas localmente ou em variáveis seguras no Render/Vercel
+- Não criar backend nesta etapa
+- Não alterar links afiliados existentes
