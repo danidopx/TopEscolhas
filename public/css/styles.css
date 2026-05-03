@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f9fafb;
+}
+
+.container {
+  width: min(960px, 92%);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h1, h2 {
+  margin: 0 0 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.grid a, a {
+  color: #0f766e;
+  text-decoration: none;
+}
+
+.grid a:hover, a:hover {
+  text-decoration: underline;
+}
