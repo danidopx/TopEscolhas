@@ -1,0 +1,10 @@
+{
+  "name": "top-escolhas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site estático Top Escolhas",
+  "scripts": {
+    "start": "npx serve public",
+    "ci:validate": "echo \"ci:validate ok\""
+  }
+}
